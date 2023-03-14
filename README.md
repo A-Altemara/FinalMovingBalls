@@ -15,3 +15,6 @@ Support: Airiel.Altemara@gmail.com
    - Button to toggle gravity
    - Button to toggle inter-ball collision
    - Ablility to move box containing balls around and maintain collision with walls
+
+  #### Blog for further info on collision
+    - https://spicyyoghurt.com/tutorials/html5-javascript-game-development/collision-detection-physics

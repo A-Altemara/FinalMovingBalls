@@ -73,4 +73,3 @@ function move2dballEdge() {
 
 setInterval(move2dballEdge, 25);
 
-// https://spicyyoghurt.com/tutorials/html5-javascript-game-development/collision-detection-physics  blog about collision for future update about balls coliding with each other
