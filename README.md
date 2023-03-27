@@ -12,6 +12,7 @@ Support: Airiel.Altemara@gmail.com
 ### Roadmap: Future Implemenation:
    - Containment box location and styling
    - User entered ball generation
+   - Button to toggle color on collision
    - Button to toggle gravity
    - Button to toggle inter-ball collision
    - Ablility to move box containing balls around and maintain collision with walls

@@ -71,5 +71,14 @@ function move2dballEdge() {
   }
 }
 
+// from blog post https://spicyyoghurt.com/tutorials/html5-javascript-game-development/collision-detection-physics by Spicy Yoghurt
+function checkIntersect(velocityX, velocityY, radiusX, positionX, positionY, radiusY) {
+  //calulates distance between the circles
+  let sequareDistance = (velocityX - velocityY)* (velocityX - velocityY) + (positionX - positionY)*(positionX - positionY)
+
+  return sequareDistance <= ((radiusX + radiusY)* (radiusX + radiusY))
+}
+
+
 setInterval(move2dballEdge, 25);
 
